@@ -1,6 +1,7 @@
 html{
     font-size:16px;
     font-family: mulish;
+    margin:0;
 }
 header{
    height: 4rem;
@@ -20,4 +21,37 @@ header a{
 
 header a:hover{
     color:rgb(197, 197, 197);
+}
+
+/*body and picture*/
+#middleSection{
+    margin:2rem;
+}
+
+#profile{
+    display:inline-block;
+    width:47%;
+    height:25rem;
+    text-align: center;
+    vertical-align:middle;
+
+}
+
+#profile img{
+    max-width:80%;
+    max-height: 80%;
+}
+#educationAndSkills{
+    display:inline-block;
+    width:47%;
+    vertical-align:middle;
+}
+.item{
+    margin:0.75rem;
+}
+.item p{
+    display: inline;
+}
+.item.inlineTitle{
+
 }
