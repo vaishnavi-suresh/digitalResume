@@ -56,3 +56,45 @@ header a:hover{
     font-family:Montserrat;
     font-weight: bold;
 }
+#Experiences{
+    padding-top: 5rem;
+}
+
+#Experiences h2{
+    margin-left: 10rem;
+}
+
+.arrow{
+    max-height:2rem;
+    vertical-align: middle;
+}
+
+.first{
+    transform: rotate(270deg);
+    margin-left: 3rem;
+
+
+}
+.last{
+    transform:rotate(90deg);
+    margin-right: 3rem;
+}
+
+.tile{
+    width:22.5%;
+    height: 30rem;
+    display: inline-block;
+    align-content: center;
+    padding:2rem;
+    margin:1rem;
+    vertical-align: middle;
+    border:1px solid black; 
+    border-radius:5%;
+}
+.tile h3, h4{
+    margin:6px;
+    font-family:Montserrat;
+}
+.tile h3{
+    font-size: 25px;
+}
